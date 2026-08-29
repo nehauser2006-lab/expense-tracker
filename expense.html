@@ -285,7 +285,6 @@
       </select>
       <button type="submit">Add</button>
     </form>
-    <div class="hint">Entries save right in your browser — no server needed.</div>
 
     <div class="section-label">Recent entries</div>
     <table>
@@ -332,7 +331,7 @@
     expenses.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     if (expenses.length === 0) {
-      listEl.innerHTML = `<tr><td colspan="4" class="empty">No entries yet. Add your first one above.</td></tr>`;
+      listEl.innerHTML = `<tr><td colspan="4" class="empty">A penny saved is a penny earned.</td></tr>`;
     } else {
       listEl.innerHTML = expenses.map(e => `
         <tr>
