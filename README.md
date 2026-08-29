@@ -4,7 +4,7 @@ A simple, single-page expense tracker built to log daily spending,
 categorize it, and visualize where your money goes — all directly 
 in the browser, no backend required.
 
-🔗 **Live demo:** [Add your GitHub Pages link here]
+🔗 **Live demo:** https://nehauser2006-lab.github.io/expense-tracker/
 
 ## Features
 - Add expenses with title, amount, category, and date
@@ -20,7 +20,7 @@ in the browser, no backend required.
 - Vanilla JavaScript (no external libraries)
 
 ## How to use
-1. Open the [live link](#) above
+1. Open the [live link](https://nehauser2006-lab.github.io/expense-tracker/) above
 2. Fill in the form to add an expense
 3. View your totals and category breakdown update automatically
 4. Click the × next to any entry to delete it
